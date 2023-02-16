@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.sankeyChart--container{
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.sankeyChart{
+  background: lightblue;
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
