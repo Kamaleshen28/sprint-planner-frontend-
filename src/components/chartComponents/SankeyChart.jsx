@@ -91,7 +91,7 @@ import { Chart } from "react-google-charts";
     
 // };
 
-const output2 = {
+export const output2 = {
     sprints: [
       [
         {
@@ -230,7 +230,7 @@ const colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
     },
   };
 
-export default function SankeyChart() {
+export function SankeyChart() {
   return (
     <div className="sankeyChart--container">
         <div className="sankeyChart">
